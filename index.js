@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(
     cors({
         origin:"https://bondarabia.com",
-        // origin: "https://www.royasow.store",//مال الفرونت اند
+        origin: "https://www.bondarabia.com",//مال الفرونت اند
         credentials: true,
     })
 );
